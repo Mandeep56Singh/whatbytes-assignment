@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Button } from "@/components/ui/button";
+import Header from "@/components/Header";
+import SkillTest from "@/components/SkillTest";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div>
-      <Button>Hello</Button>
+    <div
+      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
+    >
+      <Header></Header>
+      <SkillTest></SkillTest>
     </div>
   );
 }
