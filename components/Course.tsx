@@ -10,10 +10,8 @@ const data = {
 
 const Course = () => {
   return (
-    <div className="flex flex-col sm:flex-row p-4 border-2 border-muted-foreground gap-4 rounded-md items-center  sm:items-start justify-between">
+    <section className="flex flex-col sm:flex-row  gap-4 items-center  sm:items-start justify-between">
       {/* Logo */}
-
-     
       <img src="/html.svg" alt="logo" className="size-10" />
 
       {/* Course Info */}
@@ -47,7 +45,7 @@ const Course = () => {
 
       {/* Update Button */}
       <UpdateCourse />
-    </div>
+    </section>
   );
 };
 

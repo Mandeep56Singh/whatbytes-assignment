@@ -87,4 +87,7 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  section {
+    @apply border-2 border-muted-foreground p-4 rounded-md
+  }
 }
