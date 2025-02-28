@@ -1,40 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## 🚀 **Internship Assignment - WhatBytes**  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### **Overview**  
+This project is a responsive dashboard built with **Next.js, Tailwind CSS, shadcn/ui, Recharts, Zustand, and more.** It includes skill-wise and question analysis visualizations, ensuring a seamless user experience across different screen sizes.  
+
+## 📌 **Tech Stack**  
+- **Frontend:** Next.js (with TypeScript)  
+- **Styling:** Tailwind CSS, shadcn/ui, lucide-react  
+- **State Management:** Zustand  
+- **Forms & Validation:** React Hook Form, Zod  
+- **Charts & UI Components:** Recharts, react-circular-progressbar  
+- **Others:** lodash 
+
+## 🎯 **Features**  
+✅ **Fully Responsive UI** – Skill-wise and Question Analysis sections adjust dynamically.  
+✅ **Interactive Charts & Graphs** – Built using **Recharts** and **Circular Progress** components.  
+✅ **Form Handling & Validation** – Implemented with **React Hook Form** & **Zod**.  
+✅ **State Management** – Utilized **Zustand** for efficient global state management.  
+✅ **Modern UI Design** – Styled with **Tailwind CSS** & **shadcn/ui** components.  
+
+## 📂 **Project Structure**  
+```
+📦 Project Root
+├── 📂 components/       # Reusable UI components (buttons, charts, etc.)
+├── 📂 pages/            # Next.js pages (each file represents a route)
+├── 📂 store/            # Zustand state management
+├── 📂 schema/           # Zod validation schemas
+├── 📂 styles/           # Global and Tailwind CSS styles
+├── 📂 public/           # Static assets (images, icons, fonts)
+├── 📂 lib/              # Utility functions and API helpers
+├── 📂 data/             # Static/mock data
+│
+├── 📄 .gitignore        # Git ignored files and folders
+├── 📄 package.json      # Project dependencies & scripts
+├── 📄 tsconfig.json     # TypeScript configuration
+├── 📄 tailwind.config.ts # Tailwind CSS configuration
+├── 📄 next.config.ts    # Next.js configuration
+├── 📄 README.md         # Project documentation
+ 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 **Getting Started**  
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/Mandeep56Singh/whatbytes-assignment.git
+cd whatbytes-assignment
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+### **2️⃣ Install Dependencies**  
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **3️⃣ Run the Development Server**  
+```bash
+pnpm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.  
 
-## Learn More
+### **4️⃣ Build for Production**  
+```bash
+pnpm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🌎 **Live Demo**  
+[🚀 Deployed Version](https://whatbytes-assignment-five.vercel.app)  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 📸 **Screenshots**  
+- Desktop 
+![image](https://github.com/user-attachments/assets/72406b1b-b35d-4d0d-a3c4-969d40b45f8b)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Mobile
+![image](https://github.com/user-attachments/assets/bac0689e-a2f1-4816-92b7-ee2da5075bb9)
+![image](https://github.com/user-attachments/assets/7698263d-0f6f-46be-a1ee-91c111a357f6)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+
+
+## 👨‍💻 **Author**  
+- **Mandeep Singh** –  [LinkedIn](https://linkedin.com/in/mandeepsingh12/)  
+
+## 📜 **License**  
+This project is **MIT Licensed** – feel free to use and modify.  
+
+---
