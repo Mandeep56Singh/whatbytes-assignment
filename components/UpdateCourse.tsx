@@ -20,7 +20,11 @@ import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 
 const UpdateCourse = () => {
-  const { percentage, rank, score, updateResult } = useStore();
+  const {
+    userData: { percentage, rank, score },
+    updateResult,
+    updateChartData,
+  } = useStore();
   const [isOpen, setIsOpen] = useState(false);
 
   const prevValues = useRef<Result>({ percentage, rank, score });
@@ -56,6 +60,7 @@ const UpdateCourse = () => {
     }
 
     updateResult(data);
+    updateChartData(data.percentage, percentage);
     setIsOpen(false);
   };
 

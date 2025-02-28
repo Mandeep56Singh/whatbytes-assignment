@@ -1,6 +1,7 @@
 import React from 'react'
 import Course from './Course'
 import Statistics from './Statistics'
+import ComparasionGraph from './ComparasionGraph'
 
 
 const SkillTest = () => {
@@ -9,6 +10,7 @@ const SkillTest = () => {
         <h1 className='text-lg'>Skill Test</h1>
         <Course></Course>
         <Statistics></Statistics>
+        <ComparasionGraph></ComparasionGraph>
     </div>
   )
 }

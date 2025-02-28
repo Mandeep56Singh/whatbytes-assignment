@@ -3,14 +3,16 @@ import { Check, NotepadText, Trophy } from "lucide-react";
 import React from "react";
 
 const Statistics = () => {
-  const { rank, percentage, score } = useStore();
+  const {
+    userData: { rank, percentage, score },
+  } = useStore();
   return (
     <section className="flex flex-col gap-2">
-      <h1>Quick Statistics</h1>
+      <h1 className="text-lg font-semibold">Quick Statistics</h1>
       <div className="flex justify-between">
         <div className="flex gap-2 items-center">
           <div className="bg-muted-foreground rounded-full size-10 flex justify-center items-center">
-            <Trophy className="text-yellow-400"/>
+            <Trophy className="text-yellow-400" />
           </div>
           <div>
             <div className="font-bold">{rank}</div>
