@@ -1,7 +1,6 @@
 import AnalysisSection from "@/components/AnalysisSection";
 import Header from "@/components/Header";
 import SkillTest from "@/components/SkillTest";
-import Analysis from "@/components/SyllabysAnalysis";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({

@@ -1,6 +1,7 @@
 import React from "react";
 import { Separator } from "./ui/separator";
 import UpdateCourse from "./UpdateCourse";
+import Image from "next/image";
 
 const data = {
   questions: 8,
@@ -12,7 +13,7 @@ const Course = () => {
   return (
     <section className="flex flex-col sm:flex-row  gap-4 items-center  sm:items-start justify-between">
       {/* Logo */}
-      <img src="/html.svg" alt="logo" className="size-10" />
+      <Image src="/html.svg" alt="logo"   width={40} height={40} />
 
       {/* Course Info */}
       <div className="flex flex-col items-center sm:items-start text-center sm:text-left">

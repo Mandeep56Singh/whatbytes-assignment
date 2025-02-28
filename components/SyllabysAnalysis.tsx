@@ -3,7 +3,6 @@ import SyllabusChart from "./charts/SyllabusChart";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "./ui/card";

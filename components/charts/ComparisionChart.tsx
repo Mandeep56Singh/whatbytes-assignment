@@ -1,6 +1,6 @@
 "use client";
 
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis } from "recharts";
+import { CartesianGrid, Line, LineChart, Tooltip, XAxis, TooltipProps } from "recharts";
 import { CardContent } from "../ui/card";
 import { ChartConfig, ChartContainer } from "../ui/chart";
 
@@ -17,7 +17,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-const CustomTooltip = ({ active, payload }: any) => {
+const CustomTooltip: React.FC<TooltipProps<number, string>> = ({ active, payload }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
     return (

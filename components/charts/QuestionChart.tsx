@@ -2,7 +2,6 @@
 import useStore from "@/store/store";
 import { Target } from "lucide-react";
 import {
-  CircularProgressbar,
   CircularProgressbarWithChildren,
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
