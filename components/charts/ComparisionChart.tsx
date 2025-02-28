@@ -1,10 +1,10 @@
 "use client";
 
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis } from "recharts";
-import { CardContent } from "./ui/card";
-import { ChartConfig, ChartContainer } from "./ui/chart";
+import { CardContent } from "../ui/card";
+import { ChartConfig, ChartContainer } from "../ui/chart";
 
-import useStore from "../store/store";
+import useStore from "../../store/store";
 
 const chartConfig = {
   percentage: {
@@ -30,7 +30,7 @@ const CustomTooltip = ({ active, payload }: any) => {
   return null;
 };
 
-const Chart: React.FC = () => {
+const ComparisionChart: React.FC = () => {
   const {
     userData: { percentage: userPercentage },
     chartData,
@@ -104,4 +104,4 @@ const Chart: React.FC = () => {
   );
 };
 
-export default Chart;
+export default ComparisionChart;

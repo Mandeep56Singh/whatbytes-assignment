@@ -1,10 +1,12 @@
 import useStore from "@/store/store";
-import React from "react";
-import Chart from "./Chart";
-import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "./ui/card";
+import ComparisionChart from "./charts/ComparisionChart";
+
 
 const ComparasionGraph = () => {
-  const { userData:{ percentage} } = useStore();
+  const {
+    userData: { percentage },
+  } = useStore();
   return (
     <Card>
       <CardHeader>
@@ -14,7 +16,7 @@ const ComparasionGraph = () => {
           average 72% of all engineers who took this assestment
         </CardDescription>
       </CardHeader>
-      <Chart></Chart>
+      <ComparisionChart></ComparisionChart>
     </Card>
   );
 };
